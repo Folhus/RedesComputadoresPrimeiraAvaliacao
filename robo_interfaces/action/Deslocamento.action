@@ -1,0 +1,9 @@
+float32 latitude_destino
+float32 longitude_destino
+float32 velocidade_lat
+float32 velocidade_lon
+---
+float32 distancia_percorrida
+---
+float32 latitude_atual
+float32 longitude_atual
