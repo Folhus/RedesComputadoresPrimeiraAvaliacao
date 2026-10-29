@@ -22,7 +22,7 @@ setup(
             'pytest',
         ],
     },
-entry_points={
+    entry_points={
         'console_scripts': [
             'publicador = robo_explorador.robo_topico_publish:main',
             'assinante = robo_explorador.robo_topico_subscriber:main',
@@ -31,8 +31,6 @@ entry_points={
             'servidor_acao = robo_explorador.robo_acao_servidor:main',
             'cliente_acao = robo_explorador.robo_acao_cliente:main',
             'cliente_acao_cancela = robo_explorador.robo_acao_cliente_cancela:main',
-        ],
-        'console_scripts': [
         ],
     },
 )
